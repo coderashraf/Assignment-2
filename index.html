@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>FORMS
+  </h1>
+  <form action="./index2.html">
+
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="" placeholder="name"><br><br>
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="email" value="" required placeholder="email"><br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" value="" placeholder="password"><br><br>
+
+    <p>Language</p>
+    <input type="radio" value="React" id="react" name="language">
+    <label for="react">React</label><br>
+    <input type="radio" value="Angular" id="angular"  name="language">
+    <label for="angular">Angular</label><br>
+    <input type="radio" id="vue" value="Vue" name="language" >
+    <label for="vue">Vue</label><br>
+
+    <p>Course</p>
+    <input type="checkbox" value="MERN" id="mern" name="course1" required>
+    <label for="mern">MERN</label><br>
+    <input type="checkbox" value="MEAN" id="mean"  name="course2">
+    <label for="mean">MEAN</label><br>
+    <input type="checkbox" id="mevn" value="MEVN" name="course3" >
+    <label for="mevn">MEVN</label><br><br>
+    
+    <label for="course">Field:</label><br>
+    <select name="course" id="course">
+      <option value="Front End">Front End</option>
+      <option value="Back End">Back End</option>
+      <option value="Full Stack">Full Stack</option>
+    </select>
+    <br><br>
+
+    <textarea name="description" id="description" cols="30" rows="10"></textarea><br><br>
+
+    <label for="phone">Phone Number</label>
+    <input type="number" id="phone" name="phone">
+    <input type="submit">
+  </form>
+
+  <h1>TABLES</h1>
+  <a href="./tables.html">Click Here</a>
+</body>
+</html>
